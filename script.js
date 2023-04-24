@@ -9,4 +9,4 @@ function fibonacci(num) {
   }
 }
 
-module.exports = fibonacci;
+module.exports = fibonacci();

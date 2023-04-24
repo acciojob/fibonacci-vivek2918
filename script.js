@@ -5,7 +5,7 @@ function fibonacci(num) {
     let coumt = 0;
 
 	while(count < num){
-		console.log(num + " ");
+		console.log(num1 + " ");
 
 		let num3 = num1 + num2;
 		num1 = num2;

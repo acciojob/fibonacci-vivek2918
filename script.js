@@ -14,4 +14,4 @@ function fibonacci(num) {
 	}
 }
 
-module.exports = fibonacci(10);
+module.exports = fibonacci;

@@ -1,12 +1,15 @@
 function fibonacci(num) {
 // your code here
-	if (num === 0) {
-    return 0;
-  } else if (num === 1 || num === 2) {
-    return 1;
-  } else {
-    return fibonacci(num - 1) + fibonacci(num - 2);
-  }
+	let a = 0;
+	let b = 1;
+
+	while(num-- > 0) {
+		let c = a+b;
+		b = a;
+		a = c;
+	}
+
+	return b;
 }
 
-module.exports = fibonacci();
+module.exports = fibonacci;
